@@ -1,0 +1,29 @@
+.result_name_card{
+    color: rgb(92, 8, 36);
+    background-color: burlywood;
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(88, 69, 10, 0.185);
+    transition: background 0.35s;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.result_name_card:hover{
+    font-weight: 400;
+    background-color: rgba(245, 206, 143, 0.712);
+    box-shadow: 0 0 5px rgba(68, 59, 199, 0.1);
+}
+
+.result_name{
+    margin:0;
+    font-weight:400;
+    font-size: large;
+}
+
+.card_link {
+    text-decoration: none;
+}

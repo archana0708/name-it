@@ -1,0 +1,40 @@
+.head_container {
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+
+.head_image{
+    width: auto;
+    transition: max-width 1s, min-width 1s;
+}
+
+.head_image_expanded {
+    min-width: 230px;
+    max-width: 250px;
+}
+
+.head_image_contracted{
+    max-width: 120px;
+    min-width: 100px;
+}
+
+.head_text {
+    font-family: "Hachi Maru Pop", cursive;
+    color: burlywood;
+    margin: 5px 0 15px 0;
+    transition:fontsize 1s;
+    
+}
+
+.head_text_expanded {
+   font-size: 36px;
+}
+
+.head_text_contracted{
+   font-size: 14px;
+}
